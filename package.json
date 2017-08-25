@@ -1,0 +1,16 @@
+{
+  "name": "teste-node-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node index.js"
+  },
+  "repository": "https://github.com/tiagor87/teste-node-env.git",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.11.8"
+  }
+}
